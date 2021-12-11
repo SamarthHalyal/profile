@@ -2,7 +2,7 @@ body {
   background-image: url("skybg.jpg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 100%;
+  background-size: 100% 200px;
 }
 
 h1 {
@@ -33,4 +33,13 @@ div {
 	font-family: Helvetica;
 	color: #575755;
 	font-weight: bold;
+}
+
+#scroll-col {
+	padding-left: 0%;
+	overflow-y: scroll;
+}
+
+#info-col {
+	padding-right: 20%;
 }
