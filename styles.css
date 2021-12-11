@@ -1,3 +1,10 @@
+body {
+  background-image: url("skybg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+}
+
 h1 {
     font-size: 1.5em;
     font-family: Times New Roman;
@@ -13,8 +20,17 @@ a {
     text-decoration: none;
 }
 
-
+li {
+	color: grey;
+}
 
 div {
 	align-content: center;
+}
+
+#section-title {
+	font-size: 17px;
+	font-family: Helvetica;
+	color: #575755;
+	font-weight: bold;
 }
