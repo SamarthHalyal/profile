@@ -24,9 +24,6 @@ li {
 	color: grey;
 }
 
-div {
-	align-content: center;
-}
 
 #section-title {
 	font-size: 17px;
@@ -36,10 +33,13 @@ div {
 }
 
 #scroll-col {
-	padding-left: 0%;
-	overflow-y: scroll;
+	padding-right: 25%;
 }
 
 #info-col {
-	padding-right: 20%;
+	padding-right: 10%;
+}
+
+hr.dashed {
+  border-top: 3px dashed #bbb;
 }

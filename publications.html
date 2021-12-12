@@ -14,23 +14,47 @@
         function resizeWidth() {
             var newWidth = $(document).width();
 
-            if( newWidth < 700 )
+            if( newWidth < 1400 )
             {
+              console.log("Screen size critical");
               $("body").css('background-image', 'none');
+            }
+            else
+            {
+              console.log("Screen size restored");
+              $("body").css('background-image', 'url("skybg.jpg")');
+              $("body").css('background-repeat', "no-repeat");
+              $("body").css('background-position', "center top");
+              $("body").css('background-size', "100% 200px");
+            }
+
+            if( newWidth < 990 )
+            {
+              $("#seperater").show();
+              $("#scroll-col").css('padding-right', '50px');
+              $("#info-col").css('padding-right', '150px');
+            }
+            else
+            {
+              $("#seperater").hide();
+              $("#scroll-col").css('padding-right', '25%');
+              $("#scroll-col").css('padding-left', '0%');
+              $("#info-col").css('padding-right', '10%');
+              $("#info-col").css('padding-left', '0%');
             }
         };
 
         $(window).resize(resizeWidth);
     </script>
   </head>
-  <body>
+  <body onload="resizeWidth();">
     <br>
     <br>
     <br>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="d-flex flex-row-reverse" id="info-col">
+        <div class="col-lg-6"  id="info-col">
+          <div class="d-flex flex-row-reverse">
             <div class="d-flex flex-column">
               <div class="col">
                 <h1 id="heading">Samarth&nbsp;Venkatesh <br>Halyal</h1>
@@ -44,36 +68,41 @@
           </div>
         </div>
 
+        <div id="seperater">
+          <hr class="dashed">
+        </div>
+
         <div class="col-lg-6" id="scroll-col">
           <br>
           <br>
           <br>
-          <section>
-            <p>
-              <a href="index.html">About</a>
-            | <a href="research.html">Research</a>
-            | <a href="publications.html">Publications</a>
-            </p>
-          </section>
-          <br>
-          <br>
-          <!-- End Content -->
-          <p id="section-title">Research</p>
-          <br>
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">MECS-Press</h5>
-              <h6 class="card-subtitle mb-2 text-muted">08  November  2019</h6>
-              <p class="card-text">Samarth V. Halyal," Running Google Colaboratory as a server – transferring dynamic data in and out of colabs", International Journal of Education and Management Engineering(IJEME), Vol.9, No.6, pp.35-39, 2019.DOI: 10.5815/ijeme.2019.06.04</p>
-              <a href="https://www.mecs-press.org/ijeme/ijeme-v9-n6/IJEME-V9-N6-4.pdf" class="card-link">paper link</a>
-            </div>
-          </div>
-          <!-- End Content -->
-
-
+          <div class="d-flex flex-row-reverse" id="info-col">
+            <div class="d-flex flex-column">  
+              <section class="p-2">
+                <p><a href="index.html">About</a>
+                | <a href="research.html">Research</a>
+                | <a href="publications.html">Publications</a>
+                </p>
+              </section>
+              <br>
+              <br>
+              <!-- End Content -->
+              <p id="section-title">Publications</p>
+              <br>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">MECS-Press</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">08  November  2019</h6>
+                  <p class="card-text">Samarth V. Halyal," Running Google Colaboratory as a server – transferring dynamic data in and out of colabs", International Journal of Education and Management Engineering(IJEME), Vol.9, No.6, pp.35-39, 2019.DOI: 10.5815/ijeme.2019.06.04</p>
+                  <a href="https://www.mecs-press.org/ijeme/ijeme-v9-n6/IJEME-V9-N6-4.pdf" class="card-link">paper link</a>
+                </div>
+              </div>
+              <!-- End Content -->
         </div>
       </div>
     </div>
 
 </body>
 </html>
+
+
