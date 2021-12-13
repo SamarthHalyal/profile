@@ -269,3 +269,15 @@ footer {
     color:#444;
   }
 }
+
+#About_content {
+  display: block;
+}
+
+#Research_content {
+  display: none;
+}
+
+#Publications_content {
+  display: none;
+}
