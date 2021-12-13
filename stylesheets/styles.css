@@ -272,7 +272,7 @@ footer {
 
 
 /* Added by Samarth Halyal */
-#About_content {
+/*#About_content {
   display: block;
 }
 
@@ -282,7 +282,7 @@ footer {
 
 #Publications_content {
   display: none;
-}
+}*/
 
 .bubble {
   height: 20px;
