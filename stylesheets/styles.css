@@ -117,7 +117,7 @@ header ul {
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:322px;
+  width:284px;
 }
 
 header li {
@@ -159,9 +159,9 @@ strong {
   font-weight:500;
 }
 
-header ul li + li + li {
-  border-right:none;
-  width:89px;
+header ul li + li + li + li {
+  border-right: none;
+  width:69px;
 }
 
 header ul a strong {
@@ -257,8 +257,8 @@ footer {
     width:99%;
   }
 
-  header li, header ul li + li + li {
-    width:33%;
+  header li, header ul li + li + li + li {
+    width:24%;
   }
 }
 
@@ -272,7 +272,7 @@ footer {
 
 
 /* Added by Samarth Halyal */
-/*#About_content {
+#About_content {
   display: block;
 }
 
@@ -282,9 +282,9 @@ footer {
 
 #Publications_content {
   display: none;
-}*/
+}
 
-/*.bubble {
+.bubble {
   height: 20px;
   width: 20%;
   min-width: 100px;
@@ -317,6 +317,6 @@ footer {
   filter: blur(4px);
   position: relative;
   top: -20px;
-/*  transform: scale(1.05); */
- /* z-index: -1;
-}*/
+  transform: scale(1.05); 
+  z-index: -1;
+}
