@@ -284,7 +284,7 @@ footer {
   display: none;
 }*/
 
-.bubble {
+/*.bubble {
   height: 20px;
   width: 20%;
   min-width: 100px;
@@ -319,4 +319,4 @@ footer {
   top: -20px;
 /*  transform: scale(1.05); */
   z-index: -1;
-}
+}*/
