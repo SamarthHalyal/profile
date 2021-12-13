@@ -112,19 +112,20 @@ header {
 
 header ul {
   list-style:none;
-  height:40px;
+  height:30px;
   padding:0;
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:270px;
+  width:322px;
 }
 
 header li {
-  width:89px;
+  width:69px;
   float:left;
   border-right:1px solid #e0e0e0;
-  height:40px;
+  border-left:1px solid #e0e0e0;
+  height:30px;
 }
 
 header li:first-child a {
@@ -137,7 +138,7 @@ header li:last-child a {
 
 header ul a {
   line-height:1;
-  font-size:11px;
+  font-size:12px;
   color:#999;
   display:block;
   text-align:center;
@@ -268,3 +269,54 @@ footer {
     color:#444;
   }
 }
+
+
+/* Added by Samarth Halyal */
+/*#About_content {
+  display: block;
+}
+
+#Research_content {
+  display: none;
+}
+
+#Publications_content {
+  display: none;
+}*/
+
+/*.bubble {
+  height: 20px;
+  width: 20%;
+  min-width: 100px;
+  max-width: 100px;
+  background: ivory;
+  display: block;
+  margin: 0 auto;
+  margin-left: 50px;
+  border-radius: 4px;
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.pointer {
+  height: 8px;
+  width: 8px;
+  background: ivory;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  border-radius: 0 0 2px 0;
+  margin-top: -23px;
+  margin-left: 96px;
+  position: relative;
+  left: calc(0.1vw - 20px);
+}
+
+.blurred {
+  background: gray;
+  filter: blur(4px);
+  position: relative;
+  top: -20px;
+/*  transform: scale(1.05); */
+  z-index: -1;
+}*/
