@@ -15,25 +15,3 @@ function gestureStart() {
     }
   }
 }
-
-/* Added by Samarth Halyal */
-// document.getElementById('About_link')
-//         .addEventListener('click', function (event) {
-//             document.getElementById('About_content').style.display = 'block';
-//             document.getElementById('Research_content').style.display = 'none';
-//             document.getElementById('Publications_content').style.display = 'none';
-//         });
-
-// document.getElementById('Research_link')
-//         .addEventListener('click', function (event) {
-//             document.getElementById('About_content').style.display = 'none';
-//             document.getElementById('Research_content').style.display = 'block';
-//             document.getElementById('Publications_content').style.display = 'none';
-//         });
-
-// document.getElementById('Publications_link')
-//         .addEventListener('click', function (event) {
-//             document.getElementById('Publications_content').style.display = 'block';
-//             document.getElementById('About_content').style.display = 'none';
-//             document.getElementById('Research_content').style.display = 'none';
-// });
