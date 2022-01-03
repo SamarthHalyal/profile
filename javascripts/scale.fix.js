@@ -37,3 +37,7 @@ document.getElementById('Publications_link')
             document.getElementById('About_content').style.display = 'none';
             document.getElementById('Research_content').style.display = 'none';
 });
+
+function clickPublish() {
+  document.getElementById('Publications_link').click();
+}
