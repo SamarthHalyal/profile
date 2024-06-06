@@ -359,9 +359,9 @@ ul.experiences li:last-child:before {
 
 /* profile image */
 :root {
-  --size1: 150px;
+  --size1: 200px;
   --size2: 250px;
-  --radius: calc(var(--size) * 10 / 100);
+  --radius: calc(var(--size1) * 10 / 100);
 }
 
 main {
