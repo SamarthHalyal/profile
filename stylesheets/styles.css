@@ -380,7 +380,7 @@ main {
   border-radius: var(--radius);
   position: relative;
   background-size: cover;
-  margin: calc(var(--size1) * 20 / 100);
+  margin: calc(var(--size1) * 10 / 100);
 }
 .image-card:before {
   content: "";
