@@ -359,8 +359,9 @@ ul.experiences li:last-child:before {
 
 /* profile image */
 :root {
-  --size: 150px;
-  --radius: calc(var(--size) * 20 / 100);
+  --size1: 150px;
+  --size2: 250px;
+  --radius: calc(var(--size) * 10 / 100);
 }
 
 main {
@@ -374,12 +375,12 @@ main {
 }
 
 .image-card {
-  width: var(--size);
-  height: var(--size);
+  width: var(--size2);
+  height: var(--size1);
   border-radius: var(--radius);
   position: relative;
   background-size: cover;
-  margin: calc(var(--size) * 20 / 100);
+  margin: calc(var(--size1) * 20 / 100);
 }
 .image-card:before {
   content: "";
